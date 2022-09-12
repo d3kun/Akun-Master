@@ -1,0 +1,16 @@
+Proxies:
+- name: Indo
+  type: vmess
+  server: 104.18.21.226
+  port: 80
+  uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host:
