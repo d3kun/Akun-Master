@@ -1,4 +1,4 @@
-Proxies:
+proxies:
 - name: Indo
   type: vmess
   server: 104.18.21.226
@@ -14,7 +14,6 @@ Proxies:
     path: /
     headers:
       Host:
-proxies:
 - name: 0p0k-SG
   type: trojan
   server: 104.17.3.81
