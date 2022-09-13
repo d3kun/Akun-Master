@@ -1,9 +1,9 @@
 proxies:
-- name: Indo
+- name: INDO-1
   type: vmess
   server: 104.18.21.226
   port: 80
-  uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
+  uuid: 27c40b29-f2a2-4d77-96c9-0e57ecb981f2
   alterId: 0
   cipher: auto
   udp: true
@@ -11,9 +11,24 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: /
+    path: /sshocean
     headers:
-      Host:
+      Host: id6.v2rayserv.com
+- name: INDO-2
+  type: vmess
+  server: meet.ruangguru.com
+  port: 443
+  uuid: 8444df67-f1aa-4408-bcac-c7ddb4576ff5
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: id4.v2rayserv.com
 - name: 0p0k-SG
   type: trojan
   server: 104.17.3.81
