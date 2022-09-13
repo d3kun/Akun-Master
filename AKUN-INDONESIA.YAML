@@ -1,0 +1,4 @@
+proxies:
+  - {name: SSL, server: sg1-v2ray.sshkit.org, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, sni: sg1-v2ray.sshkit.org, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /sshkit/948716437/6319d00cbea8e/, headers: {Host: sg1-v2ray.sshkit.org}}}
+  - {name: NON SSL, server: sg1-v2ray.sshkit.org, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, sni: sg1-v2ray.sshkit.org, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /sshkit/948716437/6319d00cbea8e/, headers: {Host: sg1-v2ray.sshkit.org}}}
+  
