@@ -67,3 +67,5 @@ proxies:
   network: ws
   ws-opts:
     path: ws://api.midtrans.com/fastssh/yamet/6319f4f17efdb/
+    headers:
+      Host: sg2.vless.co
